@@ -1,0 +1,141 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+body {
+    height: fit-content;
+    width: fit-content;
+    margin:0px;
+}
+.header {
+    display: flex;
+    height: 100px;
+    width: max-content 99%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0.1em 3px gray;
+}
+.header img {
+    height: 100%;
+    margin-left: 10px;
+}
+.header div {
+    margin-right: 10px;
+}
+.navbar {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(7, 24, 124);
+    width:max-content 99%;
+    height: 60px;
+    justify-content: space-between;
+    font-weight: bold;
+    position: relative;
+    margin-top: 4px;
+}
+.mar-l
+{
+    margin-left:10px;
+}
+.mar-r
+{
+    margin-right: 10px;
+}
+.header div {
+    text-align: center;
+}
+
+/*notice var*/
+
+.notice_bar
+{
+    display:flex;
+    height:2rem;
+    background-color: aliceblue;
+    
+}
+#notice
+{
+    width:6rem;
+    height:2rem;
+    display: flex;
+    background-color:red;
+    align-items: center;
+    justify-content: center;
+    border-radius: .1em;
+    border-right:2px solid gray;
+}
+#notice_content
+{
+    width:99%;
+    height:2rem;
+    display: flex;
+    color:rgb(134, 129, 129);
+    align-items: center;
+    justify-content: center;
+    
+}
+marquee:hover{
+    color:rgb(50, 48, 48);
+   
+    
+}
+
+/*image section*/
+
+.slider img
+{
+    width:99vw;
+}
+
+.notice_box
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+    padding-top:2em;
+    background-color: rgb(233, 229, 229);
+    
+}
+a
+{
+    text-decoration: none;
+    color:rgb(37, 37, 37);
+}
+#notice-board,#result,#trends,#examination
+{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    width:24%;
+    height:450px;
+    background-color: rgba(58, 229, 255, 0.774);
+    
+}
+.scrl
+{
+    height: 99%;
+}
+.section
+{
+    text-align: center;
+    width: 100%;
+    gap: 110px;
+   margin-bottom: 5px;
+   margin-top: 0.8em;
+    
+}
+/* .slider
+{
+    position: relative;
+}
+.slid
+{
+    position: absolute;
+    
+} */
